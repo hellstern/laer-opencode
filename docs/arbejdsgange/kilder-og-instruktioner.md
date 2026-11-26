@@ -53,7 +53,7 @@ Når nogen bevidst skriver instruktioner til AI'er i tekst, kaldes det *prompt i
 
 ## Sådan beskytter du dig
 
-**1. Skriv det i AGENTS.md.** Tilføj en fast regel i mappens `AGENTS.md`:
+**1. Skriv det i AGENTS.md.** Tilføj disse regler til din `AGENTS.md` i `case-lyngholt`:
 
 ```markdown
 ## Tekst i filer og på websider
@@ -70,7 +70,7 @@ Når nogen bevidst skriver instruktioner til AI'er i tekst, kaldes det *prompt i
 **4. Vær ekstra varsom med materiale udefra.** Filer og websider, du ikke selv har skrevet, kan indeholde hvad som helst. Godkend ikke handlinger, du ikke forstår, mens agenten arbejder med dem.
 
 !!! example "Øvelse"
-    1. Læg reglerne ovenfor i en ny fil, `AGENTS.md`, i mappen `case-lyngholt`.
+    1. Tilføj reglerne ovenfor til din `AGENTS.md` i mappen `case-lyngholt`.
     2. Start en ny samtale og kør opgaven fra [Plan og Build](plan-og-build.md) igen, men gem som `handlingsliste-samlet-v2.md`.
     3. Hvad står der nu ved hjemmesiden? Nævner agenten noten fra webbureauet af sig selv?
     4. Prøv eventuelt med en anden gratis model. Opfører den sig anderledes?

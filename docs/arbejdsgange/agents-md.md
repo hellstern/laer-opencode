@@ -1,6 +1,20 @@
 # Faste instruktioner med AGENTS.md
 
-Hver gang du starter en ny samtale, har agenten glemt alt. Skriver du hver gang "skriv på dansk, brug du-form, og gem altid som nye filer", så er det tid til en **AGENTS.md**.
+Hver gang du starter en ny samtale, har agenten glemt alt. Indtil nu har du derfor skrevet de samme regler i opgaven igen og igen, og du har gemt dem i `regler-kladde.md`. Nu får de en fast plads, hvor agenten selv finder dem: **AGENTS.md**.
+
+Kender du projekter i Claude, hvor du skriver projektinstruktioner én gang, og de så gælder for alle samtaler i projektet? AGENTS.md er det samme i OpenCode.
+
+## Fra kladde til AGENTS.md
+
+1. Åbn mappen `case-lyngholt` i Stifinder eller Finder.
+2. Omdøb `regler-kladde.md` til `AGENTS.md`. Store bogstaver i AGENTS, små i .md.
+3. Start en ny samtale i OpenCode og skriv:
+
+```text
+Hvilke regler har du fået for dette projekt?
+```
+
+Agenten svarer med dine regler, uden at du har nævnt filen. Fra nu af kan du skrive kortere opgaver. "Ret ikke i referaterne" og de andre regler gælder automatisk.
 
 ## Hvad er AGENTS.md?
 
@@ -15,7 +29,7 @@ Har du både en fælles og en projektfil, bruger agenten begge. Skriv derfor ikk
 
 ## Et eksempel
 
-Lav en fil, der hedder `AGENTS.md`, i din øvelsesmappe med dette indhold:
+Her er et eksempel på en mere fyldig AGENTS.md til andre projekter:
 
 ```markdown
 # Regler for dette projekt
@@ -51,6 +65,6 @@ Lav en AGENTS.md i denne mappe. Spørg mig først om fem ting: hvem resultaterne
     Har du brugt Claude Code, kender du måske `CLAUDE.md`. OpenCode læser også den, hvis der ikke er en `AGENTS.md` i mappen.
 
 !!! example "Øvelse"
-    1. Lav en AGENTS.md med mindst tre regler, der passer til dit arbejde.
+    1. Tilføj mindst én regel om sprog og tone til din AGENTS.md i `case-lyngholt`.
     2. Giv agenten samme opgave i to nye samtaler, én med og én uden filen (omdøb den midlertidigt til `AGENTS-pause.md`).
     3. Hvad er forskellen på de to resultater?

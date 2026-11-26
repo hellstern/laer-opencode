@@ -63,8 +63,10 @@ Agenten svarer med en plan i trin. Måske foreslår den at lave en skabelon før
 Vælg **Plan** og skriv:
 
 ```text
-Teamet skal have én samlet, opdateret handlingsliste. Brug filerne i mappen som kilder. Hver opgave skal have: opgave, ansvarlig, frist, status og kildefil (det referat eller den fil, oplysningen kommer fra). Lav en plan for, hvordan du gør det, og fortæl, hvordan du vil håndtere opgaver, der er nævnt i flere referater. Gør ikke noget endnu.
+Teamet skal have én samlet, opdateret handlingsliste. Følg reglerne i @regler-kladde.md, men brug den ikke som kilde. Brug de andre filer i mappen som kilder. Hver opgave skal have: opgave, ansvarlig, frist, status og kildefil (det referat eller den fil, oplysningen kommer fra). Lav en plan for, hvordan du gør det, og fortæl, hvordan du vil håndtere opgaver, der er nævnt i flere referater. Gør ikke noget endnu.
 ```
+
+Læg mærke til `@regler-kladde.md`. I stedet for at skrive dine regler igen peger du på kladden. Det er første skridt mod genbrug. På næste side bliver kladden til en AGENTS.md, så du slet ikke behøver at pege på den.
 
 ### Trin 2: Gennemgå og ret planen
 

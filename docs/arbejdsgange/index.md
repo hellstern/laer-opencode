@@ -1,6 +1,6 @@
 # 3. Arbejdsgange
 
-I del 2 lærte du at give agenten én opgave ad gangen. I denne del lærer du at arbejde mere struktureret, så agenten klarer større opgaver og husker dine ønsker. Det tager cirka 1¾ time.
+I del 2 lærte du at give agenten én opgave ad gangen og skrev alle regler i opgaven. Nu kommer det smarte: Din regelkladde bliver til en AGENTS.md, så agenten husker dine ønsker af sig selv. Du lærer også at arbejde mere struktureret, så agenten klarer større opgaver. Det tager cirka 1¾ time.
 
 | Side | Du lærer | Tid |
 | --- | --- | --- |

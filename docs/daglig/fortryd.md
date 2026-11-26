@@ -76,9 +76,19 @@ Agenten spørger, før den retter i filen. Læs, hvad den vil ændre, og vælg *
 
 Skriv `/undo`. Se, hvad der sker med samtalen, og åbn derefter `handlingsliste.md`. Er datoen stadig rettet? Det er den, fordi mappen ikke er et Git-projekt. Derfor var sikkerhedskopien i trin 1 vigtig.
 
+### Trin 6: Gem reglen
+
+I trin 3 skrev du "Ret ikke andet i filen". Den regel får du brug for igen. Tilføj den til `regler-kladde.md`:
+
+```markdown
+- Ret kun det, jeg beder om. Lav ingen andre ændringer i filen
+- Angiv altid, hvilket referat en oplysning kommer fra
+```
+
 !!! example "Tjekliste"
     - [ ] Jeg har lavet en sikkerhedskopi, før agenten rettede i filen
     - [ ] Agenten har fundet fejlen og henvist til det referat, den bygger på
     - [ ] Jeg har godkendt rettelsen med Allow once
     - [ ] Jeg har gennemgået ændringen og tjekket, at kun datoen er ændret
     - [ ] Jeg har set, at `/undo` ikke ruller filen tilbage
+    - [ ] Jeg har tilføjet to nye regler til `regler-kladde.md`

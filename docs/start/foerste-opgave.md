@@ -133,9 +133,27 @@ Tilføj en kolonne med en frist for hver beslutning. Står der ingen frist i ref
 
 Agenten spørger igen, før den retter i filen. Vælg **Allow once** og kontrollér én frist mod referatet.
 
+## Trin 8: Start din regelkladde
+
+Se på de to opgaver, du skrev. Nogle af ordene handler ikke om netop denne opgave, men om hvordan agenten altid skal arbejde i casen: "Ret ikke i referaterne" og "Står der ingen frist, så skriv ikke angivet".
+
+Dem kommer du til at skrive igen og igen. Derfor gemmer du dem nu:
+
+1. Lav en ny fil i mappen `case-lyngholt`, og kald den `regler-kladde.md`. Brug Notesblok (Windows) eller TextEdit (Mac).
+2. Skriv de regler, du har brugt indtil nu:
+
+```markdown
+# Regler for casen Lyngholt Tæpper
+- Ret aldrig i referaterne
+- Står der ikke en frist, så skriv "ikke angivet"
+```
+
+Kladden gør ingenting endnu. Agenten læser den ikke af sig selv. Men du fylder den op i del 2, og i del 3 bliver den til en **AGENTS.md**, som agenten følger ved hver opgave. Så slipper du for at skrive reglerne igen.
+
 !!! example "Tjekliste"
     - [ ] Jeg har åbnet case-mappen som projekt
     - [ ] Jeg har valgt en gratis model
     - [ ] Jeg har godkendt den første skrivning med Allow once
     - [ ] Jeg har kontrolleret mindst én beslutning mod referatet
     - [ ] Jeg har bedt om en rettelse i samme samtale
+    - [ ] Jeg har startet `regler-kladde.md` med mine første regler

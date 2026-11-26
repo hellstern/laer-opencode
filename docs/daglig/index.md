@@ -10,6 +10,9 @@ Nu kan du give agenten en opgave. I denne del lærer du at arbejde sikkert og ef
 | [Fortryd og gennemse ændringer](fortryd.md) | At rette en fejl i casen og gennemgå ændringen | 30 min |
 | [Skriv gode opgaver](gode-opgaver.md) | At formulere opgaver, der giver gode resultater | 20 min |
 
+!!! abstract "Fyld din regelkladde op"
+    Du skriver stadig alt i opgaven. Men hver gang du opdager en regel, du har skrevet før, så tilføj den til `regler-kladde.md` i case-mappen. Om lidt bliver den til din AGENTS.md.
+
 Når du er færdig med del 2, kan du:
 
 - [ ] Starte en ny samtale og finde en gammel igen

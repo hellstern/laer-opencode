@@ -55,6 +55,17 @@ Ordliste, genveje, fejlfinding og kilder. Til når du har brug for det.
 
 Del 1 til 3 er grundforløbet og tager ca. 4¼ time. Det er fælles for alle, og du følger den samme case, [Lyngholt Tæpper](start/casen.md), hele vejen. Derefter vælger du de spor, der passer til dit arbejde, og slutter med en [afsluttende opgave](spor/afsluttende-opgave.md). Se [Sådan bruger du kurset](forside/laeringsstier.md) for forslag til forløb.
 
+!!! abstract "Den røde tråd: skriv det én gang, genbrug det altid"
+    I del 1 og 2 skriver du alt direkte i opgaven, hver gang. Det er bevidst. Du skal først lære, hvad en god opgave er, og hvilke regler du gentager.
+
+    Undervejs gemmer du de regler, du skriver igen og igen, i en kladde. I del 3 bliver kladden til en **AGENTS.md**: en fil med faste instruktioner, som agenten læser ved hver eneste opgave. Kender du projekter i Claude med projektinstruktioner, er det samme idé.
+
+    | Del | Du gør | Det gemmer du |
+    | --- | --- | --- |
+    | 1 og 2 | Skriver alle regler i opgaven | Regler, du gentager, i `regler-kladde.md` |
+    | 3 | Gør kladden til `AGENTS.md` | Faste regler, agenten altid følger |
+    | 4 | Bygger skills, kommandoer og agenter | Hele arbejdsgange, du starter med ét ord |
+
 !!! warning "Inden du går i gang"
     Skriv aldrig personoplysninger, kundedata eller fortrolige oplysninger ind i OpenCode, når du bruger de gratis modeller. Læs [Modeller og dine data](start/modeller-og-data.md), før du arbejder med rigtige filer.
 

@@ -41,5 +41,11 @@ Afgrænsning: Ret ikke i referatet. Står noget ikke i referatet, så skriv det 
 !!! warning "Tjek fakta"
     En AI kan skrive noget, der lyder rigtigt, men er forkert. Det gælder især tal, datoer, navne og citater. Bed agenten om kilder, og tjek dem selv, før du sender noget videre.
 
+## Gem det, der går igen
+
+Se på din MMFA-opgave. Mål, materiale og format skifter fra opgave til opgave. Men en del af **afgrænsningen** er den samme hver gang, f.eks. "Opfind ikke tal" eller "Ret ikke i originalerne". Det samme gælder tone og sprog.
+
+Det, der går igen, hører hjemme i `regler-kladde.md`. Så skal du kun skrive det, der er særligt for den enkelte opgave. I del 3 lærer du at gøre kladden til en AGENTS.md, så agenten følger reglerne uden at du nævner dem.
+
 !!! example "Øvelse"
-    Tag en af de tre opgaver, du skrev ned i del 1. Skriv den som en MMFA-opgave og giv den til agenten. Var resultatet brugbart i første forsøg? Hvad manglede i opgaven?
+    Tag en af de tre opgaver, du skrev ned i del 1. Skriv den som en MMFA-opgave og giv den til agenten. Var resultatet brugbart i første forsøg? Hvad manglede i opgaven? Tilføj de dele af afgrænsningen, der altid gælder, til `regler-kladde.md`.
