@@ -1,0 +1,89 @@
+site_name: Lær OpenCode
+site_url: https://hellstern.github.io/laer-opencode/
+repo_url: https://github.com/hellstern/laer-opencode
+edit_uri: ""
+site_description: Et praktisk kursus i AI-agenter med OpenCode, skrevet til dig, der ikke er udvikler
+site_author: Azanta
+copyright: Azanta.ai, kursusmateriale til deltagere på Azantas AI-forløb
+
+theme:
+  name: material
+  language: da
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Skift til mørk visning
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Skift til lys visning
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.footer
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    logo: material/robot-outline
+
+extra_css:
+  - stylesheets/azanta.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Forside:
+      - index.md
+      - Sådan bruger du kurset: forside/laeringsstier.md
+  - 1. Kom i gang:
+      - start/index.md
+      - Hvad er en AI-agent?: start/hvad-er-en-agent.md
+      - Installér OpenCode: start/installer.md
+      - Din første opgave: start/foerste-opgave.md
+      - Modeller og dine data: start/modeller-og-data.md
+  - 2. Daglig brug:
+      - daglig/index.md
+      - Projekter og samtaler: daglig/projekter-og-samtaler.md
+      - Giv agenten filer: daglig/filer.md
+      - Godkend, hvad agenten må: daglig/godkendelser.md
+      - Fortryd og gennemse ændringer: daglig/fortryd.md
+      - Skriv gode opgaver: daglig/gode-opgaver.md
+  - 3. Arbejdsgange:
+      - arbejdsgange/index.md
+      - Plan og Build: arbejdsgange/plan-og-build.md
+      - Faste instruktioner med AGENTS.md: arbejdsgange/agents-md.md
+      - Hjælpeagenter: arbejdsgange/hjaelpeagenter.md
+  - 4. Praksisspor:
+      - spor/index.md
+      - Tekst og kommunikation: spor/tekst.md
+      - Kontorfiler og data: spor/kontorfiler.md
+      - Research og analyse: spor/research.md
+      - Agenter og skills: spor/agenter-og-skills.md
+  - 5. Opslag:
+      - opslag/index.md
+      - Ordliste: opslag/ordliste.md
+      - Genveje og kommandoer: opslag/genveje.md
+      - Fejlfinding: opslag/fejlfinding.md
+      - Terminal og andre modeller: opslag/terminal-og-modeller.md
+      - Kilder og videre læsning: opslag/kilder.md

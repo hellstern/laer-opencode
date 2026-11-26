@@ -1,0 +1,75 @@
+/* Azanta-farver: navy #0C2460, azure #2484FC */
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #0C2460;
+  --md-primary-fg-color--light: #2484FC;
+  --md-primary-fg-color--dark: #081a45;
+  --md-accent-fg-color: #2484FC;
+  --md-typeset-a-color: #2484FC;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0C2460;
+  --md-primary-fg-color--light: #2484FC;
+  --md-primary-fg-color--dark: #081a45;
+  --md-accent-fg-color: #5aa2ff;
+  --md-typeset-a-color: #5aa2ff;
+}
+
+.md-typeset h1 {
+  color: var(--md-primary-fg-color);
+  font-weight: 700;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: #ffffff;
+}
+
+/* Kort til læringsstier og spor */
+.md-typeset .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.md-typeset .kort {
+  border: 1px solid #d6e2f5;
+  border-left: 4px solid #2484FC;
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+}
+
+.md-typeset .kort p:first-child {
+  margin-top: 0;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .kort {
+  border-color: #2a3a5c;
+  border-left-color: #2484FC;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .kort p:first-child {
+  color: #ffffff;
+}
+
+/* Prompts deltagerne kan kopiere */
+.md-typeset .prompt {
+  background: #eef4ff;
+  border-left: 4px solid #0C2460;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .prompt {
+  background: #16233f;
+  border-left-color: #2484FC;
+}
+
+/* Lange prompts brydes, så deltagerne ikke skal scrolle sidelæns */
+.md-typeset pre > code {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
