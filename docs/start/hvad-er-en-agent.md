@@ -31,6 +31,10 @@ Læs alle referaterne i denne mappe. Lav en fil, beslutninger.md, med en tabel o
 
 Agenten åbner selv filerne, samler beslutningerne og gemmer resultatet. Du læser det igennem bagefter.
 
+![Sammenligning: Med en chat gentager du selv fire trin for hvert af de 12 referater, i alt 48 håndgreb. Med en agent skriver du én opgave, agenten åbner filerne, samler beslutningerne og gemmer beslutninger.md, og du kontrollerer resultatet. 2 håndgreb for dig.](../billeder/chat-vs-agent.svg)
+
+Forskellen er ikke, at agenten er klogere end chatten. Det kan sagtens være den samme model. Forskellen er, at agenten har **værktøjer**: Den kan selv læse og skrive filer og gentage arbejdet for hver fil. Dit arbejde flytter fra at kopiere tekst til at give en god opgave og kontrollere resultatet.
+
 ## Hvad er OpenCode?
 
 OpenCode er et program, der giver en AI-model de værktøjer, den skal bruge for at være en agent. Det er:

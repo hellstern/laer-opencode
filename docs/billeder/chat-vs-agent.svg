@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="titel beskrivelse" font-family="Roboto, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="titel">Chat eller agent: 12 mødereferater bliver til én oversigt over beslutninger</title>
+  <desc id="beskrivelse">Med en chat gentager du selv fire trin for hvert af de 12 referater, i alt 48 håndgreb. Med en agent skriver du én opgave. Agenten åbner selv filerne, samler beslutningerne og gemmer beslutninger.md. Du læser resultatet igennem til sidst.</desc>
+
+  <defs>
+    <marker id="pil-graa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a94a6"/>
+    </marker>
+    <marker id="pil-roed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="pil-blaa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2484FC"/>
+    </marker>
+    <marker id="pil-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0C2460"/>
+    </marker>
+    <g id="dok">
+      <rect x="0" y="0" width="26" height="32" rx="3" fill="#ffffff" stroke="#0C2460" stroke-width="1.5"/>
+      <line x1="5" y1="9" x2="21" y2="9" stroke="#9fb3d6" stroke-width="2"/>
+      <line x1="5" y1="15" x2="21" y2="15" stroke="#9fb3d6" stroke-width="2"/>
+      <line x1="5" y1="21" x2="16" y2="21" stroke="#9fb3d6" stroke-width="2"/>
+    </g>
+  </defs>
+
+  <!-- Baggrund, så illustrationen også kan læses i mørk visning -->
+  <rect x="0" y="0" width="960" height="600" rx="14" fill="#ffffff"/>
+
+  <!-- ============ VENSTRE: CHAT ============ -->
+  <rect x="20" y="20" width="450" height="560" rx="12" fill="#f4f5f7" stroke="#d5d9e0"/>
+  <text x="245" y="58" text-anchor="middle" font-size="24" font-weight="700" fill="#3a4354">Med en chat</text>
+  <text x="245" y="84" text-anchor="middle" font-size="15" fill="#5b6475">Du er den, der flytter tekst frem og tilbage</text>
+
+  <!-- 12 referater -->
+  <g transform="translate(58,112)">
+    <use href="#dok" x="0" y="0"/><use href="#dok" x="30" y="0"/><use href="#dok" x="60" y="0"/><use href="#dok" x="90" y="0"/>
+    <use href="#dok" x="120" y="0"/><use href="#dok" x="150" y="0"/><use href="#dok" x="180" y="0"/><use href="#dok" x="210" y="0"/>
+    <use href="#dok" x="240" y="0"/><use href="#dok" x="270" y="0"/><use href="#dok" x="300" y="0"/><use href="#dok" x="330" y="0"/>
+  </g>
+  <text x="245" y="166" text-anchor="middle" font-size="14" fill="#5b6475">12 referater</text>
+
+  <!-- Løkken: fire trin -->
+  <g font-size="15" fill="#2b3240">
+    <rect x="60" y="190" width="370" height="46" rx="8" fill="#ffffff" stroke="#c3c9d3"/>
+    <circle cx="86" cy="213" r="13" fill="#8a94a6"/><text x="86" y="218" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">1</text>
+    <text x="110" y="218">Du åbner et referat</text>
+
+    <rect x="60" y="252" width="370" height="46" rx="8" fill="#ffffff" stroke="#c3c9d3"/>
+    <circle cx="86" cy="275" r="13" fill="#8a94a6"/><text x="86" y="280" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">2</text>
+    <text x="110" y="280">Du kopierer teksten ind i chatten</text>
+
+    <rect x="60" y="314" width="370" height="46" rx="8" fill="#ffffff" stroke="#c3c9d3"/>
+    <circle cx="86" cy="337" r="13" fill="#8a94a6"/><text x="86" y="342" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">3</text>
+    <text x="110" y="342">Du beder om beslutningerne</text>
+
+    <rect x="60" y="376" width="370" height="46" rx="8" fill="#ffffff" stroke="#c3c9d3"/>
+    <circle cx="86" cy="399" r="13" fill="#8a94a6"/><text x="86" y="404" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">4</text>
+    <text x="110" y="404">Du kopierer svaret over i et dokument</text>
+  </g>
+  <line x1="245" y1="236" x2="245" y2="250" stroke="#8a94a6" stroke-width="2" marker-end="url(#pil-graa)"/>
+  <line x1="245" y1="298" x2="245" y2="312" stroke="#8a94a6" stroke-width="2" marker-end="url(#pil-graa)"/>
+  <line x1="245" y1="360" x2="245" y2="374" stroke="#8a94a6" stroke-width="2" marker-end="url(#pil-graa)"/>
+
+  <!-- Gentag-pil -->
+  <path d="M60,399 C30,399 30,213 58,213" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#pil-roed)"/>
+  <rect x="24" y="290" width="48" height="34" rx="6" fill="#c0392b"/>
+  <text x="48" y="305" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">x 12</text>
+  <text x="48" y="319" text-anchor="middle" font-size="10" fill="#ffffff">gentag</text>
+
+  <!-- Resultat chat -->
+  <rect x="60" y="446" width="370" height="110" rx="10" fill="#fdecea" stroke="#e6b0aa"/>
+  <text x="245" y="482" text-anchor="middle" font-size="30" font-weight="700" fill="#c0392b">48 håndgreb</text>
+  <text x="245" y="508" text-anchor="middle" font-size="15" fill="#5b6475">4 trin x 12 referater, alle udført af dig</text>
+  <text x="245" y="532" text-anchor="middle" font-size="15" fill="#5b6475">Let at springe et referat over</text>
+
+  <!-- ============ HØJRE: AGENT ============ -->
+  <rect x="490" y="20" width="450" height="560" rx="12" fill="#eef4ff" stroke="#b9cff5"/>
+  <text x="715" y="58" text-anchor="middle" font-size="24" font-weight="700" fill="#0C2460">Med en agent</text>
+  <text x="715" y="84" text-anchor="middle" font-size="15" fill="#33476e">Du giver opgaven, agenten gør arbejdet</text>
+
+  <!-- Trin 1: din opgave -->
+  <rect x="520" y="104" width="390" height="72" rx="10" fill="#0C2460"/>
+  <text x="540" y="129" font-size="13" font-weight="700" fill="#9cc3ff">DU SKRIVER ÉN OPGAVE</text>
+  <text x="540" y="151" font-size="14" fill="#ffffff">"Læs alle referaterne. Lav beslutninger.md med</text>
+  <text x="540" y="168" font-size="14" fill="#ffffff">dato, beslutning og ansvarlig."</text>
+
+  <line x1="715" y1="176" x2="715" y2="196" stroke="#0C2460" stroke-width="2" marker-end="url(#pil-navy)"/>
+
+  <!-- Agentens arbejde -->
+  <rect x="520" y="198" width="390" height="232" rx="10" fill="#ffffff" stroke="#2484FC" stroke-width="2"/>
+  <text x="540" y="223" font-size="13" font-weight="700" fill="#2484FC">AGENTEN ARBEJDER SELV</text>
+
+  <!-- a: åbner filer -->
+  <g transform="translate(540,238)">
+    <use href="#dok" x="0" y="0"/><use href="#dok" x="8" y="4"/><use href="#dok" x="16" y="8"/>
+  </g>
+  <text x="590" y="258" font-size="15" fill="#0C2460" font-weight="700">Åbner de 12 referater</text>
+  <text x="590" y="276" font-size="13" fill="#33476e">Værktøj: læse filer</text>
+
+  <line x1="555" y1="288" x2="555" y2="306" stroke="#2484FC" stroke-width="2" marker-end="url(#pil-blaa)"/>
+
+  <!-- b: samler -->
+  <g transform="translate(540,312)">
+    <rect x="0" y="0" width="34" height="32" rx="4" fill="#eef4ff" stroke="#2484FC" stroke-width="1.5"/>
+    <path d="M7,10 L27,10 M7,16 L27,16 M7,22 L20,22" stroke="#2484FC" stroke-width="2"/>
+  </g>
+  <text x="590" y="326" font-size="15" fill="#0C2460" font-weight="700">Finder og samler beslutningerne</text>
+  <text x="590" y="344" font-size="13" fill="#33476e">Dato, beslutning og ansvarlig</text>
+
+  <line x1="555" y1="352" x2="555" y2="370" stroke="#2484FC" stroke-width="2" marker-end="url(#pil-blaa)"/>
+
+  <!-- c: gemmer -->
+  <g transform="translate(544,376)">
+    <rect x="0" y="0" width="26" height="32" rx="3" fill="#2484FC"/>
+    <text x="13" y="21" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">.md</text>
+  </g>
+  <text x="590" y="390" font-size="15" fill="#0C2460" font-weight="700">Gemmer beslutninger.md</text>
+  <text x="590" y="408" font-size="13" fill="#33476e">Værktøj: skrive filer</text>
+
+  <!-- Agent-løkke-ikon -->
+  <g transform="translate(870,252)">
+    <path d="M0,-17 A17,17 0 1 1 -16,6" fill="none" stroke="#2484FC" stroke-width="2.5" marker-end="url(#pil-blaa)"/>
+  </g>
+  <text x="870" y="288" text-anchor="middle" font-size="11" fill="#2484FC">gentager</text>
+  <text x="870" y="302" text-anchor="middle" font-size="11" fill="#2484FC">selv</text>
+
+  <line x1="715" y1="430" x2="715" y2="444" stroke="#0C2460" stroke-width="2" marker-end="url(#pil-navy)"/>
+
+  <!-- Trin: du kontrollerer -->
+  <rect x="520" y="446" width="390" height="54" rx="10" fill="#0C2460"/>
+  <text x="540" y="469" font-size="13" font-weight="700" fill="#9cc3ff">DU KONTROLLERER</text>
+  <text x="540" y="489" font-size="14" fill="#ffffff">Læser filen og tjekker mindst én beslutning mod kilden</text>
+
+  <!-- Resultat agent -->
+  <rect x="520" y="512" width="390" height="52" rx="10" fill="#dcebff" stroke="#9cc3ff"/>
+  <text x="715" y="545" text-anchor="middle" font-size="22" font-weight="700" fill="#0C2460">2 håndgreb for dig</text>
+</svg>
