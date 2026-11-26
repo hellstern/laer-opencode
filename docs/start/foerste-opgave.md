@@ -46,9 +46,17 @@ I OpenCode hedder en mappe, agenten arbejder i, et **projekt**.
 Modellen er den AI, der tænker for agenten. Ved tekstfeltet finder du **modelvælgeren**.
 
 1. Klik på modelvælgeren.
-2. Vælg en model, der er markeret som gratis. De har ofte "Free" i navnet.
+2. Skriv `deepseek` i søgefeltet øverst.
+3. Vælg **DeepSeek V4.1 Flash Free**.
 
-De gratis modeller skifter løbende. Holder en model op med at svare, så vælg bare en anden gratis model.
+![Modelvælgeren i OpenCode med de gratis modeller. DeepSeek V4.1 Flash Free er valgt.](../billeder/modelvaelger.png)
+
+!!! tip "Hvorfor DeepSeek V4.1 Flash Free?"
+    OpenCode starter med en anden model som standard (markeret med **Default**). Vi bruger DeepSeek V4.1 Flash Free på kurset, fordi den ifølge OpenCodes oversigt ikke gemmer dine data og ikke bruger dem til træning. Det gør flere af de andre gratis modeller.
+
+    Svarer DeepSeek ikke, så vælg **Hy4 flash Free**, som har samme vilkår. Læs mere på [Modeller og dine data](modeller-og-data.md).
+
+De gratis modeller skifter løbende. Er DeepSeek V4.1 Flash Free og Hy4 flash Free ikke på listen længere, så spørg underviseren, hvilken model du skal bruge.
 
 ## Trin 4: Giv agenten opgaven
 

@@ -15,6 +15,15 @@ Reglerne for data er forskellige fra model til model. Ifølge OpenCodes egen ove
 | Flere modeller | **Gemmes og kan bruges til at forbedre modellen**, mens den er gratis |
 | Prøvemodeller | Udbyderen beder dig om ikke at sende personlige eller fortrolige data |
 
+### Vores anbefaling på kurset
+
+| Model | Hvorfor |
+| --- | --- |
+| **DeepSeek V4.1 Flash Free** | Førstevalg. Gemmer ikke dine data og bruger dem ikke til træning |
+| **Hy4 flash Free** | Reserve med samme vilkår, hvis DeepSeek ikke svarer |
+
+Undgå de modeller, hvor data gemmes og bruges til at forbedre modellen. Selv med opdigtede data er det en god vane at vælge den model, der passer bedst på dine data.
+
 Den aktuelle oversigt finder du på [opencode.ai/docs/console/models](https://opencode.ai/docs/console/models/).
 
 !!! warning "Reglen på kurset"
