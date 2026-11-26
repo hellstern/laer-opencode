@@ -28,6 +28,12 @@ Hent viden fra websider, sammenfat dokumenter og lav en kundeanalyse med kilder.
 Byg dine egne agenter, skills og genvejskommandoer. Ca. 1,5 time.
 </div>
 
+<div class="kort" markdown>
+[Afsluttende opgave](afsluttende-opgave.md)
+
+Løs en opgave fra dit spor og aflever i Teams. 30 til 45 minutter.
+</div>
+
 </div>
 
 Hvert spor har tre projekter, der bliver lidt sværere for hver gang. Alle projekter bruger opdigtede eller offentlige data, så du kan bruge de gratis modeller.

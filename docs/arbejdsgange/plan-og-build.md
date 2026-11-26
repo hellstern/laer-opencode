@@ -52,8 +52,56 @@ Agenten svarer med en plan i trin. Måske foreslår den at lave en skabelon før
 !!! tip "Plan er også god til spørgsmål"
     Vil du bare forstå noget, er Plan et godt valg. Bed f.eks. agenten om at lave tre korte eksempelkontrakter med forskellige opsigelsesvilkår, og spørg derefter i Plan: "Hvad står der i disse tre eksempelkontrakter om opsigelse? Lav en sammenligning." Så gennemgår agenten indholdet uden at gå i gang med at ændre noget.
 
-!!! example "Øvelse"
-    1. Læg tre korte offentlige tekster i en mappe, f.eks. tre opslag fra en kommunes hjemmeside.
-    2. Vælg **Plan** og bed om en plan for at lave et fælles nyhedsbrev ud fra teksterne.
-    3. Ret mindst én ting i planen.
-    4. Skift til **Build** og få planen udført.
+## Casen: Én samlet handlingsliste
+
+**Problemet:** Hos [Lyngholt Tæpper](../start/casen.md) er handlingslisten ikke opdateret siden 22. oktober, og beslutningerne fra mødet 4. november mangler. Teamet vil have én samlet handlingsliste, hvor man kan se, hvor hver opgave kommer fra. Det er en opgave med flere filer og flere trin, så du starter med en plan.
+
+Åbn mappen `case-lyngholt` som projekt og start en ny samtale.
+
+### Trin 1: Få en plan
+
+Vælg **Plan** og skriv:
+
+```text
+Teamet skal have én samlet, opdateret handlingsliste. Brug filerne i mappen som kilder. Hver opgave skal have: opgave, ansvarlig, frist, status og kildefil (det referat eller den fil, oplysningen kommer fra). Lav en plan for, hvordan du gør det, og fortæl, hvordan du vil håndtere opgaver, der er nævnt i flere referater. Gør ikke noget endnu.
+```
+
+### Trin 2: Gennemgå og ret planen
+
+Læs planen og overvej:
+
+- Bruger agenten alle tre referater og den eksisterende handlingsliste?
+- Hvad gør den, når den samme opgave nævnes i flere referater? Den nyeste oplysning bør vinde.
+- Hvad skriver den, når der ikke står en frist? Den bør skrive "ikke angivet" og ikke gætte.
+- Hvordan bestemmer den status, f.eks. "færdig", "i gang" eller "godkendt"?
+
+Ret planen i samme samtale, f.eks.:
+
+```text
+Godt. Tilføj to ting: Brug kun oplysninger, der står i referaterne, til status. Og marker opgaver, hvor kilderne er uenige, med "tjek".
+```
+
+### Trin 3: Udfør planen
+
+Skift til **Build** og skriv:
+
+```text
+Udfør planen. Gem resultatet som handlingsliste-samlet.md. Ret ikke i de eksisterende filer.
+```
+
+Godkend skrivningen med **Allow once**.
+
+### Trin 4: Kontrollér tre linjer
+
+Åbn `handlingsliste-samlet.md` og kontrollér tre opgaver mod kildefilen:
+
+1. **Julefrokosten:** Står der fredag 4. december 2026?
+2. **Kundeundersøgelsen:** Står der, at den sendes 16. november, og at Lone er ansvarlig?
+3. **Den nye hjemmeside:** Hvad står der i status? Og hvilken kildefil henviser agenten til?
+
+Gem dit svar på punkt 3. Det skal du bruge på næste side, [Tekst i filer er ikke ordrer](kilder-og-instruktioner.md).
+
+!!! example "Tjekliste"
+    - [ ] Jeg har fået en plan og rettet mindst én ting i den
+    - [ ] Agenten har lavet handlingsliste-samlet.md med kildefil på hver opgave
+    - [ ] Jeg har kontrolleret tre opgaver mod kildefilen

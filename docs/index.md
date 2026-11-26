@@ -24,25 +24,25 @@ På dette kursus lærer du at bruge **OpenCode**, et gratis open source-program,
 <div class="kort" markdown>
 [1. Kom i gang](start/index.md)
 
-Hvad en agent er, installation og din første opgave. Ca. 45 minutter.
+Hvad en agent er, casen, installation og din første opgave. Ca. 55 minutter.
 </div>
 
 <div class="kort" markdown>
 [2. Daglig brug](daglig/index.md)
 
-Projekter, filer, godkendelser, fortryd og gode opgaver. Ca. 1,5 time.
+Projekter, filer, godkendelser, fortryd og gode opgaver. Ca. 1¾ time.
 </div>
 
 <div class="kort" markdown>
 [3. Arbejdsgange](arbejdsgange/index.md)
 
-Plan og Build, faste instruktioner og hjælpeagenter. Ca. 1 time.
+Plan og Build, faste instruktioner, hjælpeagenter og kildekontrol. Ca. 1¾ time.
 </div>
 
 <div class="kort" markdown>
 [4. Praksisspor](spor/index.md)
 
-Vælg et eller flere spor: tekst, kontorfiler, research eller egne agenter.
+Vælg et eller flere spor: tekst, kontorfiler, research eller egne agenter. Slut med en afsluttende opgave.
 </div>
 
 <div class="kort" markdown>
@@ -53,7 +53,7 @@ Ordliste, genveje, fejlfinding og kilder. Til når du har brug for det.
 
 </div>
 
-Del 1 til 3 er grundforløbet og tager ca. 3¼ time. Det er fælles for alle. Derefter vælger du de spor, der passer til dit arbejde. Se [Sådan bruger du kurset](forside/laeringsstier.md) for forslag til forløb.
+Del 1 til 3 er grundforløbet og tager ca. 4¼ time. Det er fælles for alle, og du følger den samme case, [Lyngholt Tæpper](start/casen.md), hele vejen. Derefter vælger du de spor, der passer til dit arbejde, og slutter med en [afsluttende opgave](spor/afsluttende-opgave.md). Se [Sådan bruger du kurset](forside/laeringsstier.md) for forslag til forløb.
 
 !!! warning "Inden du går i gang"
     Skriv aldrig personoplysninger, kundedata eller fortrolige oplysninger ind i OpenCode, når du bruger de gratis modeller. Læs [Modeller og dine data](start/modeller-og-data.md), før du arbejder med rigtige filer.

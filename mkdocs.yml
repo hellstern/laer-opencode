@@ -59,6 +59,7 @@ nav:
   - 1. Kom i gang:
       - start/index.md
       - Hvad er en AI-agent?: start/hvad-er-en-agent.md
+      - "Casen: Lyngholt Tæpper": start/casen.md
       - Installér OpenCode: start/installer.md
       - Din første opgave: start/foerste-opgave.md
       - Modeller og dine data: start/modeller-og-data.md
@@ -74,12 +75,14 @@ nav:
       - Plan og Build: arbejdsgange/plan-og-build.md
       - Faste instruktioner med AGENTS.md: arbejdsgange/agents-md.md
       - Hjælpeagenter: arbejdsgange/hjaelpeagenter.md
+      - Tekst i filer er ikke ordrer: arbejdsgange/kilder-og-instruktioner.md
   - 4. Praksisspor:
       - spor/index.md
       - Tekst og kommunikation: spor/tekst.md
       - Kontorfiler og data: spor/kontorfiler.md
       - Research og analyse: spor/research.md
       - Agenter og skills: spor/agenter-og-skills.md
+      - Afsluttende opgave: spor/afsluttende-opgave.md
   - 5. Opslag:
       - opslag/index.md
       - Ordliste: opslag/ordliste.md
