@@ -28,6 +28,7 @@ I skrivebordsprogrammet findes de fleste af disse også som knapper og menuer.
 | Genvej | Det gør |
 | --- | --- |
 | ++enter++ | Send beskeden |
+| ++ctrl+o++ | Tilføj et projekt (++cmd+o++ på Mac) |
 | ++ctrl+p++ | Åbn kommandopaletten med alle handlinger (++cmd+p++ på Mac) |
 | ++ctrl+v++ | Sæt en fil eller et skærmbillede ind i beskeden (++cmd+v++ på Mac) |
 

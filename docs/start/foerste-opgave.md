@@ -37,15 +37,23 @@ I denne øvelse bruger du kun de tre referater. De andre filer kommer i del 2 og
 
 I OpenCode hedder en mappe, agenten arbejder i, et **projekt**.
 
-1. Klik på projektvælgeren (under eller ved tekstfeltet) og vælg **Add project**. På startskærmen kan knappen også hedde **Open project**.
-2. Vælg mappen `case-lyngholt`.
-3. Tjek, at `case-lyngholt` står som projektnavn, før du skriver noget.
+1. Klik på **projektvælgeren** under tekstfeltet nederst til venstre. Den viser navnet på det projekt, der er åbent nu.
+2. Vælg **Add project** (eller tryk ++ctrl+o++, på Mac ++cmd+o++).
+3. Vælg mappen `case-lyngholt`, altså den mappe, hvor referaterne ligger direkte i.
+4. Tjek, at `case-lyngholt` står i projektvælgeren, før du skriver noget.
+
+![Projektvælgeren i OpenCode med projektet case-lyngholt og knappen Add project. Under tekstfeltet ses agentmenuen Build og modelvælgeren.](../billeder/projektvaelger.png)
+
+I tekstfeltet kan du også se to menuer, du får brug for: **agentmenuen** (her står Build) og **modelvælgeren** (her står DeepSeek V4.1 Flash Free).
+
+!!! warning "To mapper med samme navn"
+    Windows laver ofte en mappe inden i en mappe, når du pakker ud: `case-lyngholt\case-lyngholt`. Vælg den **inderste** mappe, hvor referaterne ligger. Vælger du den yderste, finder agenten ingen filer, og `opencode.json` virker ikke.
 
 ## Trin 3: Vælg en gratis model
 
 Modellen er den AI, der tænker for agenten. Ved tekstfeltet finder du **modelvælgeren**.
 
-1. Klik på modelvælgeren.
+1. Klik på modelvælgeren i tekstfeltet.
 2. Skriv `deepseek` i søgefeltet øverst.
 3. Vælg **DeepSeek V4.1 Flash Free**.
 
