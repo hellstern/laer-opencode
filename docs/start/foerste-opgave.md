@@ -72,13 +72,15 @@ Agenten læser først de tre referater. Når den vil oprette `beslutninger.md`, 
 
 Læs, hvad agenten vil gøre. Den skal ville **oprette filen `beslutninger.md`** i case-mappen og ikke noget andet.
 
-Vælg **Allow once**. Det giver lov til netop denne ene handling. Næste gang agenten vil skrive, spørger den igen.
+![Godkendelsen i OpenCode: Permission required, Modify files, beslutninger.md, med knapperne Deny, Allow always og Allow once.](../billeder/godkendelse.png)
+
+Boksen viser, hvilken type handling agenten vil udføre (her: ændre filer), og hvilken fil det gælder. Vælg **Allow once**. Det giver lov til netop denne ene handling. Næste gang agenten vil skrive, spørger den igen.
 
 | Valg | Betyder |
 | --- | --- |
 | **Allow once** | Lov til netop denne ene handling. Brug det, mens du lærer |
 | Allow always | Lov til denne type handling i projektet fremover |
-| Reject | Nej. Du kan skrive, hvad agenten skal gøre i stedet |
+| Deny | Nej. Du kan skrive, hvad agenten skal gøre i stedet |
 
 Du lærer mere om valgene på [Godkend, hvad agenten må](../daglig/godkendelser.md).
 

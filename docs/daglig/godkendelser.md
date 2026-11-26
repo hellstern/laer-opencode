@@ -39,7 +39,7 @@ Når en handling står til "spørg", stopper agenten og venter på dig. Du får 
 | --- | --- |
 | **Allow once** | Agenten må gøre netop denne ene ting. Næste gang spørger den igen |
 | **Allow always** | Agenten må gøre denne type ting i dette projekt fremover |
-| **Reject** | Agenten må ikke. Du kan skrive en kort besked om hvorfor, eller hvad den skal gøre i stedet |
+| **Deny** | Agenten må ikke. Du kan skrive en kort besked om hvorfor, eller hvad den skal gøre i stedet |
 
 Brug **Allow once**, mens du lærer. Så ser du hver eneste handling og lærer, hvad agenten typisk vil gøre. Gem **Allow always** til handlinger, du har set mange gange og er tryg ved.
 
@@ -99,5 +99,5 @@ Nu spørger agenten, før den retter i en fil (`edit`), før den kører en komma
     2. Start en ny samtale og bed agenten om at lave en fil, `hilsen.md`, med en kort hilsen.
     3. Når agenten spørger, så vælg **Allow once**. Åbn filen og tjek den.
     4. Bed nu agenten om at rette en stavefejl i en af de andre filer.
-    5. Vælg denne gang **Reject** og skriv: "Vis mig rettelsen først, uden at gemme den."
+    5. Vælg denne gang **Deny** og skriv: "Vis mig rettelsen først, uden at gemme den."
     6. Hvad gør agenten nu?
