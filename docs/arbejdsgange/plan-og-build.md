@@ -5,9 +5,21 @@ OpenCode har to indbyggede hovedagenter, som du kan skifte imellem:
 | Agent | Hvad den gør | Brug den når |
 | --- | --- | --- |
 | **Build** | Standardagenten. Den læser, skriver og retter filer og kan køre kommandoer | Du ved, hvad du vil have, og agenten skal udføre det |
-| **Plan** | Undersøger og planlægger, men retter ikke i dine filer | Opgaven er stor eller uklar, og du vil se planen først |
+| **Plan** | Undersøger opgaven og foreslår en fremgangsmåde, før der bliver gjort noget | Opgaven er stor eller uklar, og du vil gennemgå fremgangsmåden først |
 
 Du vælger agent i menuen ved tekstfeltet. Det står hele tiden, hvilken agent der er aktiv.
+
+## Plan er et værktøj til at gennemgå fremgangsmåden
+
+Plan er lavet til at tænke, før der handles. Den læser dine filer, stiller spørgsmål og beskriver, hvordan opgaven kan løses. Så kan du rette fremgangsmåden, inden der bliver lavet noget.
+
+Plan er sat op til ikke at redigere dine almindelige projektfiler. Men den er ikke en garanti:
+
+- Plan kan gemme sine egne planfiler, hvis du beder om det
+- Kommandoer styres stadig af dine rettigheder, og en kommando kan i princippet ændre filer
+- Dine egne indstillinger i `opencode.json` kan ændre, hvad agenterne må
+
+Skal du være sikker på, at intet bliver ændret, så brug rettigheder, f.eks. `edit` og `shell` sat til `ask`, og arbejd på kopier. Se [Godkend, hvad agenten må](../daglig/godkendelser.md).
 
 ## Arbejdsgangen: Planlæg, ret, udfør
 
@@ -20,19 +32,28 @@ Det tager et par minutter ekstra, men du undgår, at agenten bruger lang tid på
 
 ## Eksempel
 
-Vælg **Plan** og skriv:
+Bed først agenten om at lave en fil med opdigtede deltagere. Vælg **Build** og skriv:
 
 ```text
-Jeg skal lave et kursusbevis til 25 deltagere. Navnene ligger i @deltagere.csv. Lav en plan for, hvordan du laver ét bevis pr. deltager som PDF. Gør ikke noget endnu.
+Lav en fil, deltagere.csv, med 25 opdigtede deltagere: fornavn, efternavn og kursusdato. Brug almindelige danske navne, men ingen rigtige personer.
+```
+
+Skift derefter til **Plan** og skriv:
+
+```text
+Jeg skal lave et kursusbevis til hver deltager i @deltagere.csv. Lav en plan for, hvordan du laver ét bevis pr. deltager som PDF. Gør ikke noget endnu.
 ```
 
 Agenten svarer med en plan i trin. Måske foreslår den at lave en skabelon først, så du kan godkende layoutet. Ret planen, og skift derefter til **Build**.
 
+!!! warning "Fiktive data i øvelserne"
+    Brug aldrig en rigtig deltagerliste i en øvelse med en gratis model. Navne er personoplysninger. Se [Modeller og dine data](../start/modeller-og-data.md).
+
 !!! tip "Plan er også god til spørgsmål"
-    Vil du bare forstå noget, f.eks. "Hvad står der i disse fem kontrakter om opsigelse?", er Plan et godt valg. Så er du sikker på, at agenten ikke kommer til at rette i filerne.
+    Vil du bare forstå noget, er Plan et godt valg. Bed f.eks. agenten om at lave tre korte eksempelkontrakter med forskellige opsigelsesvilkår, og spørg derefter i Plan: "Hvad står der i disse tre eksempelkontrakter om opsigelse? Lav en sammenligning." Så gennemgår agenten indholdet uden at gå i gang med at ændre noget.
 
 !!! example "Øvelse"
-    1. Læg tre korte tekster i en mappe, f.eks. tre opslag fra en hjemmeside.
+    1. Læg tre korte offentlige tekster i en mappe, f.eks. tre opslag fra en kommunes hjemmeside.
     2. Vælg **Plan** og bed om en plan for at lave et fælles nyhedsbrev ud fra teksterne.
     3. Ret mindst én ting i planen.
     4. Skift til **Build** og få planen udført.

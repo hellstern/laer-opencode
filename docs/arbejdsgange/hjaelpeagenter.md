@@ -13,7 +13,7 @@ En hovedagent kan sende delopgaver videre til **hjælpeagenter** (på engelsk *s
 | Hjælpeagent | Gør |
 | --- | --- |
 | **General** | Klarer research og opgaver i flere trin |
-| **Explore** | Søger i og læser filer og websider, men retter ikke i noget |
+| **Explore** | Søger i og læser filer og websider. Er sat op til ikke at redigere filer |
 
 Hovedagenten bestemmer selv, hvornår den bruger dem. Du kan også bede om det:
 

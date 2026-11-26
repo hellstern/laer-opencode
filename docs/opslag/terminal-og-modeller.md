@@ -47,7 +47,7 @@ opencode
 
 ## EU-model med Mistral
 
-Mistral er en fransk AI-udbyder, så dine data bliver i EU. Den gratis plan giver ikke adgang til API'et, så det kræver et betalt abonnement. Mistral Pro indeholder et månedligt beløb i API-credits.
+Mistral er en fransk AI-udbyder. Før du sender rigtige data, så tjek behandlingssted og vilkår for netop den tjeneste og plan, du bruger, i Mistrals vilkår og databehandleraftale. Den gratis plan giver ikke adgang til API'et, så det kræver et betalt abonnement. Mistral Pro indeholder et månedligt beløb i API-credits.
 
 1. Opret en konto på [console.mistral.ai](https://console.mistral.ai/) og vælg en plan med API-adgang.
 2. Åbn **API keys**, klik på **New key**, og kopiér nøglen. Du kan kun se den én gang.
@@ -61,7 +61,7 @@ Mistral er en fransk AI-udbyder, så dine data bliver i EU. Den gratis plan give
 
 ## Helt lokalt med Ollama
 
-Med Ollama kører modellen på din egen computer, så intet sendes ud på nettet. Det kræver mindst 16 GB RAM, og små modeller er dårligere til at bruge værktøjer end de store modeller i skyen. Regn med, at det går langsommere.
+Med Ollama kører selve modellen på din egen computer, så dine opgaver og filer sendes ikke til en modeludbyder. Andre værktøjer kan stadig gå på nettet: Websøgning sender søgeord til en ekstern søgetjeneste, og hentning af websider kontakter de sider, agenten henter. Sæt `websearch` og `webfetch` til `deny` i `opencode.json`, hvis intet må forlade computeren. Det kræver mindst 16 GB RAM, og små modeller er dårligere til at bruge værktøjer end de store modeller i skyen. Regn med, at det går langsommere.
 
 1. Installér Ollama fra [ollama.com](https://ollama.com/).
 2. Hent en model, der kan bruge værktøjer, f.eks. `ollama pull qwen3:8b`.

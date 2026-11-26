@@ -15,7 +15,7 @@
 | **Markdown (.md)** | Almindelig tekst med enkle tegn til formatering, f.eks. `#` for overskrift |
 | **MCP** | En standard, der lader agenten forbinde til andre programmer og tjenester |
 | **Model** | Den AI, der tænker for agenten, f.eks. en gratis model eller Claude |
-| **Plan** | Den indbyggede agent, der undersøger og planlægger uden at rette i dine filer |
+| **Plan** | Den indbyggede agent, der undersøger opgaven og foreslår en fremgangsmåde. Er sat op til ikke at redigere dine projektfiler, men er ingen garanti |
 | **Projekt** | Den mappe, agenten arbejder i |
 | **Prompt** | Den opgave eller besked, du skriver til agenten |
 | **Rettigheder** (permissions) | Regler for, hvad agenten må: allow, ask eller deny |

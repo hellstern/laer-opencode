@@ -1,21 +1,38 @@
 # Din første opgave
 
-Nu skal du give agenten en mappe at arbejde i og en lille opgave at løse.
+Nu skal du give agenten en mappe at arbejde i og en lille opgave at løse. Du arbejder med to opdigtede mødereferater, så der er ingen rigtige data på spil.
 
-## Trin 1: Lav en øvelsesmappe
+## Før du starter: data og godkendelser
 
-Lav en ny, tom mappe, f.eks. `Dokumenter/opencode-kursus`. Læg en eller to ufarlige tekstfiler i den, f.eks. en indkøbsliste eller noter fra et kursus. Du kan også lave filerne i Notesblok (Windows) eller TextEdit (Mac).
+To ting skal du vide, før du giver agenten sin første opgave:
 
-!!! warning "Brug en tom øvelsesmappe"
-    Agenten kan læse og ændre **alt** i den mappe, du åbner. Åbn derfor aldrig hele din Dokumenter-mappe eller dit skrivebord som projekt.
+- **Alt, hvad agenten læser, sendes til modellen.** Med de gratis modeller kan dine data blive gemt og brugt til træning. Brug derfor kun opdigtede eller offentlige data på kurset. Læs mere på [Modeller og dine data](modeller-og-data.md).
+- **Agenten kan ændre filer.** Øvelsesmappen indeholder en lille indstillingsfil, `opencode.json`, der får agenten til at **spørge dig**, før den skriver i en fil, kører en kommando eller arbejder uden for mappen. Når den spørger, er det dig, der bestemmer.
+
+## Trin 1: Hent øvelsesmappen
+
+1. Hent [foerste-opgave.zip](../filer/foerste-opgave.zip).
+2. Pak filen ud, f.eks. i din Dokumenter-mappe. På Windows: højreklik og vælg **Udpak alle**. På Mac: dobbeltklik.
+3. Tjek, at mappen `foerste-opgave` indeholder:
+
+```text
+foerste-opgave/
+  referat-teammoede-2026-10-07.txt
+  referat-teammoede-2026-10-21.txt
+  opencode.json
+  LAES-MIG.txt
+```
+
+!!! warning "Åbn kun øvelsesmappen"
+    Agenten arbejder i den mappe, du åbner. Åbn aldrig hele din Dokumenter-mappe eller dit skrivebord som projekt.
 
 ## Trin 2: Åbn mappen som projekt
 
 I OpenCode hedder en mappe, agenten arbejder i, et **projekt**.
 
 1. Klik på projektvælgeren (under eller ved tekstfeltet) og vælg **Add project**. På startskærmen kan knappen også hedde **Open project**.
-2. Vælg din øvelsesmappe.
-3. Tjek, at mappens navn står som projektnavn, før du skriver noget.
+2. Vælg mappen `foerste-opgave`.
+3. Tjek, at `foerste-opgave` står som projektnavn, før du skriver noget.
 
 ## Trin 3: Vælg en gratis model
 
@@ -24,43 +41,71 @@ Modellen er den AI, der tænker for agenten. Ved tekstfeltet finder du **modelv�
 1. Klik på modelvælgeren.
 2. Vælg en model, der er markeret som gratis. De har ofte "Free" i navnet.
 
-De gratis modeller skifter løbende. Holder en model op med at svare, så vælg bare en anden gratis model. Læs mere på [Modeller og dine data](modeller-og-data.md).
+De gratis modeller skifter løbende. Holder en model op med at svare, så vælg bare en anden gratis model.
 
-## Trin 4: Giv agenten en opgave
+## Trin 4: Giv agenten opgaven
 
 Skriv denne opgave i tekstfeltet og tryk Enter:
 
 ```text
-Se hvilke filer der ligger i denne mappe. Lav en ny fil, oversigt.md, med en kort beskrivelse af hver fil på dansk.
+Læs de to referater i mappen. Lav en ny fil, beslutninger.md, med en tabel over alle beslutninger: dato for mødet, beslutning og hvem der er ansvarlig. Ret ikke i referaterne.
 ```
 
-Det skal du se:
+Agenten læser først de to referater. Når den vil oprette `beslutninger.md`, stopper den og spørger dig om lov.
 
-- [ ] Agenten fortæller, hvad den vil gøre
-- [ ] Den læser filerne (du kan se det som små trin i samtalen)
-- [ ] Den laver filen `oversigt.md`
-- [ ] Den fortæller, at den er færdig
+## Trin 5: Godkend den første skrivning
 
-Åbn mappen på din computer. Nu ligger der en ny fil, `oversigt.md`. Den kan du åbne i Notesblok, TextEdit eller Word.
+Læs, hvad agenten vil gøre. Den skal ville **oprette filen `beslutninger.md`** i din øvelsesmappe og ikke noget andet.
+
+Vælg **Allow once**. Det giver lov til netop denne ene handling. Næste gang agenten vil skrive, spørger den igen.
+
+| Valg | Betyder |
+| --- | --- |
+| **Allow once** | Lov til netop denne ene handling. Brug det, mens du lærer |
+| Allow always | Lov til denne type handling i projektet fremover |
+| Reject | Nej. Du kan skrive, hvad agenten skal gøre i stedet |
+
+Du lærer mere om valgene på [Godkend, hvad agenten må](../daglig/godkendelser.md).
+
+## Trin 6: Kontrollér resultatet mod kilden
+
+En agent kan tage fejl, også i små opgaver. Derfor kontrollerer du altid mindst én ting selv.
+
+1. Åbn `beslutninger.md` i Notesblok (Windows) eller TextEdit (Mac).
+2. Vælg én beslutning i tabellen, f.eks. datoen for julefrokosten.
+3. Åbn det referat, beslutningen kommer fra, og find stedet.
+4. Står det samme begge steder? Er det den rigtige person, der er ansvarlig?
+
+??? success "Facit: hvad tabellen skal indeholde"
+    Referaterne har seks beslutninger i alt:
+
+    | Møde | Beslutning | Ansvarlig |
+    | --- | --- | --- |
+    | 7. okt. | Nyhedsbrevet sendes den første tirsdag i måneden | Aisha |
+    | 7. okt. | Alle sender favoritdesign senest 10. okt., Mette vælger | Mette |
+    | 7. okt. | Datoer for julefrokost undersøges med Salg | Peter |
+    | 21. okt. | Julefrokost fredag 4. december 2026, lokale bookes | Lone |
+    | 21. okt. | LinkedIn-opslag tirsdag og torsdag, plan for fire uger | Jonas |
+    | 21. okt. | Udkast til kundeundersøgelse med højst 8 spørgsmål | Lone |
+
+    Kaffemaskinen er ikke en beslutning, så den bør ikke stå i tabellen. At Mette har valgt design nummer 2, er en opfølgning, men nogle modeller tager det med som en beslutning. Har agenten fem eller syv beslutninger, så se efter, om den har udeladt, delt eller slået punkter sammen. Det er netop den slags, du skal holde øje med.
 
 !!! info "Hvad er en .md-fil?"
-    `.md` står for Markdown. Det er almindelig tekst med enkle tegn til formatering, f.eks. `#` foran en overskrift og `-` foran et punkt. Agenter er gode til Markdown, og du kan altid bede om at få resultatet som Word eller PDF bagefter.
+    `.md` står for Markdown. Det er almindelig tekst med enkle tegn til formatering, f.eks. `|` til tabeller. Agenter er gode til Markdown, og du kan altid bede om resultatet i et andet format bagefter.
 
-## Trin 5: Bed om en rettelse
+## Trin 7: Bed om en rettelse
 
 Skriv videre i samme samtale:
 
 ```text
-Lav oversigten om til en tabel med to kolonner: filnavn og beskrivelse.
+Tilføj en kolonne med en frist for hver beslutning. Står der ingen frist i referatet, så skriv "ikke angivet".
 ```
 
-Agenten husker, hvad I lige har talt om, og retter i den fil, den lavede.
-
-!!! example "Øvelse"
-    Læg en tekst fra dit eget arbejde i mappen (uden personoplysninger). Bed agenten om at lave tre forslag til en kortere overskrift og gemme dem i en ny fil.
+Agenten spørger igen, før den retter i filen. Vælg **Allow once** og kontrollér én frist mod referatet.
 
 !!! example "Tjekliste"
-    - [ ] Jeg har åbnet min øvelsesmappe som projekt
+    - [ ] Jeg har åbnet øvelsesmappen som projekt
     - [ ] Jeg har valgt en gratis model
-    - [ ] Agenten har lavet en ny fil i mappen
+    - [ ] Jeg har godkendt den første skrivning med Allow once
+    - [ ] Jeg har kontrolleret mindst én beslutning mod referatet
     - [ ] Jeg har bedt om en rettelse i samme samtale

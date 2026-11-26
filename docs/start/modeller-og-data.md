@@ -33,8 +33,14 @@ Skal du senere bruge agenter på rigtige opgaver, har du tre muligheder:
 | Mulighed | Fordel | Ulempe |
 | --- | --- | --- |
 | **Betalt model fra en udbyder** med databehandleraftale, f.eks. Anthropic, OpenAI eller Mistral | Bedre modeller og klare vilkår | Koster penge pr. brug |
-| **EU-udbyder**, f.eks. Mistral (Frankrig) | Data bliver i EU | Kræver betalt API-adgang |
-| **Lokal model** via Ollama | Intet forlader din computer | Kræver en kraftig computer, og små modeller er dårligere til at bruge værktøjer |
+| **Europæisk udbyder**, f.eks. Mistral (Frankrig) | Europæisk virksomhed under EU-regler | Kræver betalt API-adgang. Tjek selv behandlingssted og vilkår for den konkrete tjeneste |
+| **Lokal model** via Ollama | Selve modellen kører på din computer, så dine opgaver og filer sendes ikke til en modeludbyder | Kræver en kraftig computer, og små modeller er dårligere til at bruge værktøjer. Andre værktøjer, f.eks. websøgning, kan stadig sende data ud |
+
+!!! warning "Tjek vilkårene for den konkrete tjeneste"
+    At en udbyder er europæisk, betyder ikke automatisk, at alle dens tjenester behandler data i EU. Før du sender rigtige data, så tjek i udbyderens vilkår og databehandleraftale: Hvor behandles data? Gemmes de, og hvor længe? Bruges de til træning? Svarene kan være forskellige for chat, API og betalingsplaner.
+
+!!! info "Lokal model betyder ikke, at intet forlader computeren"
+    Med Ollama kører selve modellen på din egen computer. Men agenten kan stadig bruge værktøjer, der går på nettet. Bruger den f.eks. websøgning, sendes søgeordene til en ekstern søgetjeneste, og henter den en webside, kan adressen afsløre, hvad du arbejder med. Vil du holde alt lokalt, så slå `websearch` og `webfetch` fra med `deny` i `opencode.json`.
 
 Du forbinder en udbyder ved at indsætte en API-nøgle i OpenCodes indstillinger. Fremgangsmåden står i [Terminal og andre modeller](../opslag/terminal-og-modeller.md).
 

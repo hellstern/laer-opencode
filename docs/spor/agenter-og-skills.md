@@ -129,7 +129,7 @@ Nu skriver du bare:
 /kundeanalyse Bageriet Solstrejf
 ```
 
-`$ARGUMENTS` bliver erstattet af det, du skriver efter kommandoen. Linjen `agent: plan` gør, at kommandoen kører i Plan, så den ikke retter i dine filer.
+`$ARGUMENTS` bliver erstattet af det, du skriver efter kommandoen. Linjen `agent: plan` gør, at kommandoen kører i Plan, så agenten gennemgår og beskriver i stedet for at gå i gang med at ændre filer. Vil du være helt sikker, så sæt `edit` til `ask` i projektets `opencode.json`.
 
 ## Byg dit eget
 
