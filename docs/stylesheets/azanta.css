@@ -73,3 +73,17 @@
   white-space: pre-wrap;
   word-break: break-word;
 }
+
+/* Knapper på forsiden */
+.md-typeset .md-button {
+  margin: 0.3rem 0.6rem 0.3rem 0;
+}
+.md-typeset .md-button--primary {
+  background-color: #0C2460;
+  border-color: #0C2460;
+  color: #ffffff;
+}
+.md-typeset .md-button--primary:hover {
+  background-color: #2484FC;
+  border-color: #2484FC;
+}

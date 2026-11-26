@@ -6,6 +6,9 @@ Du har sikkert prøvet at chatte med en AI. Du skriver et spørgsmål, du får e
 
 På dette kursus lærer du at bruge **OpenCode**, et gratis open source-program, til netop det. Du skal ikke kunne kode. Alt foregår i almindeligt dansk, i et skrivebordsprogram med knapper og menuer.
 
+[Start første øvelse](start/index.md){ .md-button .md-button--primary }
+[Vælg dit forløb](forside/laeringsstier.md){ .md-button }
+
 ## Hvad du kan efter kurset
 
 - Give en agent en opgave og en mappe med filer at arbejde i
@@ -50,7 +53,7 @@ Ordliste, genveje, fejlfinding og kilder. Til når du har brug for det.
 
 </div>
 
-Del 1 til 3 er fælles for alle. Derefter vælger du de spor, der passer til dit arbejde. Se [Sådan bruger du kurset](forside/laeringsstier.md) for forslag til forløb.
+Del 1 til 3 er grundforløbet og tager ca. 3¼ time. Det er fælles for alle. Derefter vælger du de spor, der passer til dit arbejde. Se [Sådan bruger du kurset](forside/laeringsstier.md) for forslag til forløb.
 
 !!! warning "Inden du går i gang"
     Skriv aldrig personoplysninger, kundedata eller fortrolige oplysninger ind i OpenCode, når du bruger de gratis modeller. Læs [Modeller og dine data](start/modeller-og-data.md), før du arbejder med rigtige filer.
