@@ -1,6 +1,6 @@
 # 6. Ekstra opgaver
 
-Er du hurtigt færdig, eller vil du gerne lære mere om agenter? Her er tre ekstra opgaver. De bygger videre på [Tre agenter, ét team](../arbejdsgange/agentteam.md), så lav den side først.
+Er du hurtigt færdig, eller vil du gerne lære mere om agenter? Her er fire ekstra opgaver. De bygger videre på [Tre agenter, ét team](../arbejdsgange/agentteam.md), så lav den side først.
 
 <div class="grid" markdown>
 
@@ -22,9 +22,15 @@ Byg din egen hovedagent, der samler beslutninger fra referaterne i casen. Ca. 40
 Byg en agent, der sorterer mails og ikke følger instruktioner, der gemmer sig i dem. Ca. 45 minutter.
 </div>
 
+<div class="kort" markdown>
+[Opgave 4: Byg et tilbudsteam fra bunden](tilbudsteam.md)
+
+Design og byg en hovedagent og tre hjælpere, der laver et tilbud på en kundeforespørgsel. Ca. 1½ time.
 </div>
 
-Opgaverne bliver sværere hen ad vejen, men du kan tage dem i den rækkefølge, du vil.
+</div>
+
+Opgaverne bliver sværere hen ad vejen, men du kan tage dem i den rækkefølge, du vil. Opgave 4 er den største og ligger tættest på en rigtig arbejdsopgave.
 
 ## Sådan bruger du løsningerne
 

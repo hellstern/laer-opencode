@@ -54,7 +54,7 @@ Ordliste, genveje, fejlfinding og kilder. Til når du har brug for det.
 <div class="kort" markdown>
 [6. Ekstra opgaver](ekstra/index.md)
 
-Tre agentopgaver med vejledende løsninger, til dig, der er hurtigt færdig eller vil lære mere.
+Fire agentopgaver med vejledende løsninger, til dig, der er hurtigt færdig eller vil lære mere.
 </div>
 
 </div>
