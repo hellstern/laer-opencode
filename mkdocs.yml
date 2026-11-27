@@ -91,3 +91,8 @@ nav:
       - Fejlfinding: opslag/fejlfinding.md
       - Terminal og andre modeller: opslag/terminal-og-modeller.md
       - Kilder og videre læsning: opslag/kilder.md
+  - 6. Ekstra opgaver:
+      - ekstra/index.md
+      - "Opgave 1: Klarsprogsagenten": ekstra/klarsprog.md
+      - "Opgave 2: Mødeassistenten": ekstra/moedeassistent.md
+      - "Opgave 3: Indbakke-sorteren": ekstra/indbakke.md

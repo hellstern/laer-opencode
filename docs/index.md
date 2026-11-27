@@ -51,6 +51,12 @@ Vælg et eller flere spor: tekst, kontorfiler, research eller egne agenter. Slut
 Ordliste, genveje, fejlfinding og kilder. Til når du har brug for det.
 </div>
 
+<div class="kort" markdown>
+[6. Ekstra opgaver](ekstra/index.md)
+
+Tre agentopgaver med vejledende løsninger, til dig, der er hurtigt færdig eller vil lære mere.
+</div>
+
 </div>
 
 Del 1 til 3 er grundforløbet og tager ca. 5 timer. Det er fælles for alle, og du følger den samme case, [Lyngholt Tæpper](start/casen.md), hele vejen. Derefter vælger du de spor, der passer til dit arbejde, og slutter med en [afsluttende opgave](spor/afsluttende-opgave.md). Se [Sådan bruger du kurset](forside/laeringsstier.md) for forslag til forløb.

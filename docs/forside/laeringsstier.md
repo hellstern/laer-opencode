@@ -13,6 +13,8 @@ Kurset er bygget som en trappe. Hver side har en kort forklaring, en øvelse og 
 
 Tiderne er vejledende. Det er helt fint at bruge længere tid på øvelserne.
 
+Er du hurtigt færdig, eller vil du lære mere om agenter, så prøv [6. Ekstra opgaver](../ekstra/index.md).
+
 ## Sådan læser du siderne
 
 !!! tip "Tip"
