@@ -36,7 +36,7 @@ Projekter, filer, godkendelser, fortryd og gode opgaver. Ca. 1¾ time.
 <div class="kort" markdown>
 [3. Arbejdsgange](arbejdsgange/index.md)
 
-Plan og Build, faste instruktioner, hjælpeagenter og kildekontrol. Ca. 1¾ time.
+Plan og Build, faste instruktioner, hjælpeagenter, et team af tre agenter og kildekontrol. Ca. 2½ time.
 </div>
 
 <div class="kort" markdown>
@@ -53,7 +53,7 @@ Ordliste, genveje, fejlfinding og kilder. Til når du har brug for det.
 
 </div>
 
-Del 1 til 3 er grundforløbet og tager ca. 4¼ time. Det er fælles for alle, og du følger den samme case, [Lyngholt Tæpper](start/casen.md), hele vejen. Derefter vælger du de spor, der passer til dit arbejde, og slutter med en [afsluttende opgave](spor/afsluttende-opgave.md). Se [Sådan bruger du kurset](forside/laeringsstier.md) for forslag til forløb.
+Del 1 til 3 er grundforløbet og tager ca. 5 timer. Det er fælles for alle, og du følger den samme case, [Lyngholt Tæpper](start/casen.md), hele vejen. Derefter vælger du de spor, der passer til dit arbejde, og slutter med en [afsluttende opgave](spor/afsluttende-opgave.md). Se [Sådan bruger du kurset](forside/laeringsstier.md) for forslag til forløb.
 
 !!! abstract "Den røde tråd: skriv det én gang, genbrug det altid"
     I del 1 og 2 skriver du alt direkte i opgaven, hver gang. Det er bevidst. Du skal først lære, hvad en god opgave er, og hvilke regler du gentager.

@@ -26,7 +26,9 @@
 | Problem | Løsning |
 | --- | --- |
 | Min agent vises ikke | Tjek, at filen ligger i `.opencode/agents`, og start en ny samtale |
-| Agenten bruger ikke min hjælpeagent | Skriv i opgaven, at den skal bruge den, f.eks. "brug redaktoer" |
+| Agenten bruger ikke min hjælpeagent | Skriv i opgaven, at den skal bruge den, f.eks. "brug redaktoer". Hjælper det ikke, så prøv en anden gratis model |
+| Researcher henter ikke websider | Tjek, at `webfetch` har `effect: allow` i `researcher.md` |
+| Agenterne fra agent-eksempler vises ikke | Tjek, at du har åbnet selve mappen `agent-eksempler` som projekt, ikke mappen udenom |
 | Agenten bruger ikke min skill | Tjek, at `SKILL.md` har en `description`. Uden den kan agenten ikke se skillen |
 | Min kommando findes ikke | Tjek, at filen ligger i `.opencode/commands` og ender på `.md` |
 

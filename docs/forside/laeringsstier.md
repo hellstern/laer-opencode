@@ -6,10 +6,10 @@ Kurset er bygget som en trappe. Hver side har en kort forklaring, en øvelse og 
 
 | Forløb | Indhold | Tid |
 | --- | --- | --- |
-| **Grundforløb** | Del 1, 2 og 3 | Ca. 4¼ time |
-| **Kommunikation** | Grundforløb + [Tekst og kommunikation](../spor/tekst.md) + afsluttende opgave | Ca. 6 timer |
-| **Kontor og data** | Grundforløb + [Kontorfiler og data](../spor/kontorfiler.md) + afsluttende opgave | Ca. 6 timer |
-| **Konsulent** | Grundforløb + [Research og analyse](../spor/research.md) + [Agenter og skills](../spor/agenter-og-skills.md) + afsluttende opgave | Ca. 7½ time |
+| **Grundforløb** | Del 1, 2 og 3 | Ca. 5 timer |
+| **Kommunikation** | Grundforløb + [Tekst og kommunikation](../spor/tekst.md) + afsluttende opgave | Ca. 6¾ time |
+| **Kontor og data** | Grundforløb + [Kontorfiler og data](../spor/kontorfiler.md) + afsluttende opgave | Ca. 6¾ time |
+| **Konsulent** | Grundforløb + [Research og analyse](../spor/research.md) + [Agenter og skills](../spor/agenter-og-skills.md) + afsluttende opgave | Ca. 8 timer |
 
 Tiderne er vejledende. Det er helt fint at bruge længere tid på øvelserne.
 

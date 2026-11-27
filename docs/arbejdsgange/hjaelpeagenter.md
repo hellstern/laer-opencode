@@ -25,7 +25,7 @@ Du kan følge hjælpeagenternes arbejde i samtalen, hvor de vises som små opgav
 
 ## Dine egne hjælpeagenter
 
-Du kan lave dine egne hjælpeagenter med deres egne instruktioner, f.eks. en "redaktør", der kun giver feedback, eller en "oversætter". Det lærer du i sporet [Agenter og skills](../spor/agenter-og-skills.md) og i uge 6 på forløbet.
+Du kan lave dine egne hjælpeagenter med deres egne instruktioner, f.eks. en "redaktør", der kun giver feedback, eller en "oversætter". Et færdigt team med en projektleder og to hjælpere finder du på næste side, [Tre agenter, ét team](agentteam.md). Du lærer også at bygge dine egne i sporet [Agenter og skills](../spor/agenter-og-skills.md).
 
 !!! example "Øvelse"
     Læg tre korte tekster i en mappe. Skriv:

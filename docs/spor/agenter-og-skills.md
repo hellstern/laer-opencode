@@ -64,21 +64,7 @@ Skriv et kort opslag til intranettet om vores nye cykelordning. Brug redaktoer t
 
 ### Ekstra: Tre agenter, der arbejder sammen
 
-Hent [agent-eksempler.zip](../filer/agent-eksempler.zip) og pak mappen ud. Den indeholder et lille team:
-
-| Agent | Type | Må | Opgave |
-| --- | --- | --- | --- |
-| projektleder | hovedagent | skrive filer, starte hjælpeagenter | Planlægger og uddelegerer |
-| researcher | hjælpeagent | hente websider | Finder fakta med kilder |
-| redaktoer | hjælpeagent | kun læse | Giver feedback på udkast |
-
-Åbn mappen `agent-eksempler` som projekt, vælg **projektleder** som agent, og skriv:
-
-```text
-Skriv en kort nyhedsmail til kollegerne om, hvad Microsoft Copilot er, og hvad de skal være opmærksomme på. Brug researcher til fakta og redaktoer til feedback.
-```
-
-Læs agentfilerne i `.opencode/agents` og se, hvordan rettighederne er sat op. Prøv derefter at give redaktøren lov til at hente websider, eller lav en fjerde agent, f.eks. en oversætter.
+Vil du se flere agenter arbejde sammen, så prøv teamet på siden [Tre agenter, ét team](../arbejdsgange/agentteam.md). Der er en projektleder, en researcher og en redaktør, og du kan bygge en faktatjekker til dem.
 
 ## Projekt 2: Din første skill
 
