@@ -8,6 +8,8 @@ Indtil nu har du brugt de agenter, der følger med OpenCode. I dette spor bygger
 | **Skill** | En opskrift på en arbejdsgang, som agenten henter, når den har brug for den | Agenten skal kunne en bestemt metode, f.eks. jeres skabelon til tilbud |
 | **Kommando** | En gemt opgave, du starter med `/navn` | Du giver tit den samme opgave |
 
+I tvivl om, hvad du skal vælge? Se [Skill eller agent?](../arbejdsgange/skill-eller-agent.md).
+
 Alle tre lægges i en skjult mappe, `.opencode`, i dit projekt:
 
 ```text

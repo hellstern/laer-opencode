@@ -200,6 +200,9 @@ Gem filen, og start en ny samtale, når du har ændret en agent. Slår ændringe
     - [ ] Jeg har ændret en rettighed og set, hvad der skete
     - [ ] Jeg har bygget en faktatjekker og sat den ind hos projektlederen
 
+!!! tip "Næste skridt"
+    Hvornår skal faktatjekkeren være en agent, og hvornår er en skill nok? Se [Skill eller agent?](skill-eller-agent.md).
+
 ## Kilder
 
 - [OpenCode: Agenter i Markdown](https://opencode.ai/v2/docs/agents/)
